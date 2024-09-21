@@ -1,0 +1,35 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    position: relative;
+    z-index: 10;
+  }
+  .navlogo{
+    font-size: 24px;
+  }
+  .navLinks{
+    list-style: none;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    z-index: 500;
+  }
+  .navItem{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: 20px;
+  }
+  .toggleButton{
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: white;
+    z-index: 1000; 
+  }
+  

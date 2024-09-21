@@ -1,0 +1,12 @@
+{
+  "name": "mern-project",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "concurrently \"npm run dev --prefix backend\" \"npm start --prefix frontend\"",
+    "client": "npm start --prefix frontend",
+    "server": "npm run dev --prefix backend"
+  },
+  "dependencies": {
+    "concurrently": "^6.0.0"
+  }
+}
